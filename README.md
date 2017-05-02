@@ -3,6 +3,7 @@ Term 2:
 + Week 6  14 May - 20 May
 + Week 7  21 May - 27 May
 Reference: Discrete Mathematics with Applications by Susanna S.Epp, Fourth Edition
+Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0
 
 ## Speaking Mathematically
 ## The Logic of Compound Statements
@@ -32,7 +33,7 @@ Reference: Discrete Mathematics with Applications by Susanna S.Epp, Fourth Editi
 ## Counting and Probability
   Counting elements in a list, permutations and combinations, pascal's triangle
 ## Graphs and Trees
-  Matracies, Simple graphs, Binary trees,
+  Matrices, Simple graphs, Binary trees,
 ## Analysis of Algorithm Efficiency
   Binary search, merge sort, benchmarking
 ## Regular Expressions and Finate-State Automata
