@@ -10,9 +10,9 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
   Logic, bitwise logic and truth tables
 ## The Logic of Quantified Statements
 ## Elementary Number Theory
-```
-  Div (/), Mod (%), floor, truncate, Ceil, sqrt, cbrt, Power,
-  Logarithm definition:
+
+  + Div (/), Mod (%), floor, truncate, Ceil, sqrt, cbrt, Power,
+  + Logarithm definition:
 
     log<sub>b</sub>(x) = y    =>  Math.log(x, b) = y
     b<sup>y</sup> = x         =>  b ** y = x
@@ -33,8 +33,8 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
     8 = 2 * 2 * 2
     Math.cbrt(8) = 2
 
-    http://www.rapidtables.com/math/algebra/Logarithm.htm
-  Natural logarithm:
+  + http://www.rapidtables.com/math/algebra/Logarithm.htm
+    Natural logarithm:
     ln(x) = log e (x) where e is 2.718281828459...
     e = lim x -> inf (1 + 1/x) ** x
     >> Math::PI
@@ -42,7 +42,7 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
     >> Math::E
     => 2.718281828459045
     >>
-```
+
 ## Sequences, Mathematical Induction, and Recursion
   Number systems base 10 to base 2 division by 2 (shift operator)
   Recursion - tail recursion - factorial
