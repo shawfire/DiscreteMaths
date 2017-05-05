@@ -14,24 +14,25 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
   + Div (/), Mod (%), floor, truncate, Ceil, sqrt, cbrt, Power,
   + Logarithm definition:
 
-    log<sub>b</sub>(x) = y    =>  Math.log(x, b) = y
-    b<sup>y</sup> = x         =>  b ** y = x
+    log<sub>b</sub>(x) = y    =>  Math.log(x, b) = y <br/>
+    b<sup>y</sup> = x         =>  b ** y = x <br/>
 
-    2<sup>4</sup> = 16        =>  2 ** 4 = 16
-    log<sub>2</sub>(16) = 4   =>  Math.log2(16) = 4 = Math.log(16,2)
+    2<sup>4</sup> = 16        =>  2 ** 4 = 16 <br/>
+    log<sub>2</sub>(16) = 4   =>  Math.log2(16) = 4 = Math.log(16,2) <br/>
 
-    For example: Find the value of y where 2 ** y = 16
-      y = Math.log(16,2) same as Math.log2(16)
-      y = 4
+    For example: Find the value of y where 2 ** y = 16 <br/>
+      y = Math.log(16,2) same as Math.log2(16) <br/>
+      y = 4 <br/>
 
-    Find b where Math.log(16,b) = 4
-      b<sup>4</sup> = 16
-      b = 16 ** (1/4.0)
-
+    Find b where Math.log(16,b) = 4 <br/>
+      b<sup>4</sup> = 16 <br/>
+      b = 16 ** (1/4.0) <br/>
+    ```
     9 = 3 x 3
     Math.sqrt(9) = 3
     8 = 2 * 2 * 2
     Math.cbrt(8) = 2
+    ```
 
   + http://www.rapidtables.com/math/algebra/Logarithm.htm
     Natural logarithm:
