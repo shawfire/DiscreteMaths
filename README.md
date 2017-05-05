@@ -25,7 +25,7 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
       y = 4
 
     Find b where Math.log(16,b) = 4
-      b<sup>4<sup> = 16
+      b<sup>4</sup> = 16
       b = 16 ** (1/4.0)
 
     9 = 3 x 3
