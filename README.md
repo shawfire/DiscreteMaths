@@ -10,16 +10,38 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
   Logic, bitwise logic and truth tables
 ## The Logic of Quantified Statements
 ## Elementary Number Theory
-  Div, Mod, Floor, Trunc, Ceil, Sqrt, Power,
+  Div (/), Mod (%), floor, truncate, Ceil, sqrt, cbrt, Power,
   Logarithm definition:
-    b ** y = x
-    log<sub>b</sub>(x) = y
-    2 ** 4 = 16
-    log<sub>2</sub>(16) = 4  # where 2 is a subscript
+
+    log<sub>b</sub>(x) = y    =>  Math.log(x, b) = y
+    b<sup>y</sup> = x         =>  b ** y = x
+
+    2<sup>4</sup> = 16        =>  2 ** 4 = 16
+    log<sub>2</sub>(16) = 4   =>  Math.log2(16) = 4 = Math.log(16,2)
+
+    For example: Find the value of y where 2 ** y = 16
+      y = Math.log(16,2) same as Math.log2(16)
+      y = 4
+
+    Find b where Math.log(16,b) = 4
+      b<sup>4<sup> = 16
+      b = 16 ** (1/4.0)
+
+    9 = 3 x 3
+    Math.sqrt(9) = 3
+    8 = 2 * 2 * 2
+    Math.cbrt(8) = 2
+
     http://www.rapidtables.com/math/algebra/Logarithm.htm
   Natural logarithm:
     ln(x) = log e (x) where e is 2.718281828459...
     e = lim x -> inf (1 + 1/x) ** x
+    >> Math::PI
+    => 3.141592653589793
+    >> Math::E
+    => 2.718281828459045
+    >>
+
 ## Sequences, Mathematical Induction, and Recursion
   Number systems base 10 to base 2 division by 2 (shift operator)
   Recursion - tail recursion - factorial
