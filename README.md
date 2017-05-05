@@ -10,6 +10,7 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
   Logic, bitwise logic and truth tables
 ## The Logic of Quantified Statements
 ## Elementary Number Theory
+```
   Div (/), Mod (%), floor, truncate, Ceil, sqrt, cbrt, Power,
   Logarithm definition:
 
@@ -41,7 +42,7 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
     >> Math::E
     => 2.718281828459045
     >>
-
+```
 ## Sequences, Mathematical Induction, and Recursion
   Number systems base 10 to base 2 division by 2 (shift operator)
   Recursion - tail recursion - factorial
