@@ -13,9 +13,9 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
   Div, Mod, Floor, Trunc, Ceil, Sqrt, Power,
   Logarithm definition:
     b ** y = x
-    log b (x) = y
+    log<sub>b</sub>(x) = y
     2 ** 4 = 16
-    log 2 (16) = 4  # where 2 is a subscript
+    log<sub>2</sub>(16) = 4  # where 2 is a subscript
     http://www.rapidtables.com/math/algebra/Logarithm.htm
   Natural logarithm:
     ln(x) = log e (x) where e is 2.718281828459...
