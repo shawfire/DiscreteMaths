@@ -36,6 +36,7 @@ Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3
   Matrices, Simple graphs, Binary trees,
 ## Analysis of Algorithm Efficiency
   Binary search, merge sort, benchmarking
+  https://www.toptal.com/developers/sorting-algorithms
 ## Regular Expressions and Finate-State Automata
   Regular Expressions
 ## Properties of Real Numbers
