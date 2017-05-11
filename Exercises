@@ -1,0 +1,36 @@
+7. Advanced Discrete Math Topics
+
+1. Given the following binary tree,
+  encode and decode the prefix messages respectively.
+
+  0011 0000 1100 0111 1101 1100 1
+
+Right in 1
+Left is 0
+
+Give the most frequent letters in the document the shortest encoding
+
+      /  \
+     /\   \
+    /\ \   \
+  a  /\ n   \
+    e  s  /  \
+         /\ / \
+           r  m
+
+2. Given this scenario: (Probability and Set notation - two questions)
+
+3. Assume...
+
+4. Use the Ceasar cipher to encrypt the message (use an offset of 3):
+
+  Good Morning
+
+5. Use the Ceasar cipher to decrypt the message
+
+  AFPZOBQBJXQEFPCRK
+
+6. Write Ruby code to implement the Ceasar cipher algorithm and
+  explain the implementation?
+
+https://gist.github.com/matugm/db363c7131e6af27716c

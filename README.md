@@ -4,6 +4,8 @@ Term 2:
 + Week 7  21 May - 27 May
 Reference: Discrete Mathematics with Applications by Susanna S.Epp, Fourth Edition
 Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0
+Trees: https://www.educative.io/collection/page/10370001/160001/220001
+Patrick discrete maths app : https://discrete.now.sh/
 
 ## Speaking Mathematically
 ## The Logic of Compound Statements
