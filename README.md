@@ -6,6 +6,8 @@ Reference: Discrete Mathematics with Applications by Susanna S.Epp, Fourth Editi
 Data Visualisation: https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0
 Trees: https://www.educative.io/collection/page/10370001/160001/220001
 Patrick discrete maths app : https://discrete.now.sh/
+Got the Discrete Rails app hosted on Google Cloud: http://104.198.155.205/
+Github: coder-factory-academy/DiscreteRails
 
 ## Speaking Mathematically
 ## The Logic of Compound Statements

@@ -65,7 +65,6 @@ class MonthlyData
 end
 
 
-
 def for_month
 metaprogramming is the art of writing programs that write programs
 
