@@ -1,3 +1,8 @@
+# Setting up an RSpec project.
+#
+# gem install rspec
+# rspec --init
+#
 
 # Phase 1
 # A set of three cards of the same value, e.g. ['2C', '2S', '2H']
@@ -47,6 +52,18 @@ def phasea_phase_one(group)
   else
       return nil
   end
+end
+
+# Phase 2
+# A set of 7 cards of the same suit,
+# e.g. ['2C', '2C', '4C', 'KC', '9C', 'AH', 'JC'] represents a set of
+#   seven Clubs.
+# Note that the set may include Wilds
+# (as we see in our example, with the Ace of Hearts),
+# but must include at least two "natural" cards (i.e. non-Wild card),
+# which define the suit.
+# Note also that the sequence of the cards is not significant for this group type.
+def phasea_phase_two(group)
 end
 
 
