@@ -35,11 +35,12 @@ describe 'PhaseAType' do
 
     it "returns the phase type 3" do
       expect(phasea_phase_type([['2S', '2S', '2H', '2D'], ['7H', '7S', '7D', '7D']])).to eq(3)
-      expect(phasea_phase_type([['4S', '4S', '4H', '4D'], ['7H', '7S', '7D', '7D']])).to eq(3)
+      expect(phasea_phase_type([['AS', '4S', '4H', '4D'], ['AH', '7S', 'AD', '7D']])).to eq(3)
     end
 
     it "returns nil if invalid phase 3" do
-      expect(phasea_phase_type([['2S', '2S', '2H', '2D'], ['7H', '7S', '7D', '7D']])).to eq(nil)
+      expect(phasea_phase_type([['2S', '2S', '3H', '2D'], ['7H', '7S', '7D', '7D']])).to eq(nil)
+      expect(phasea_phase_type([['2S', '2S', '3H', '2D'], ['7H', '7S', '8D', '7D']])).to eq(nil)
     end
 
     it "returns the phase type 4" do
@@ -52,12 +53,12 @@ describe 'PhaseAType' do
     end
 
     it "returns the phase type 5" do
-      expect(phasea_phase_type([['4H', '5S', 'AC', '7C', '8H', 'AH', '0S', 'JC']])).to eq(4)
-      expect(phasea_phase_type([['AH', '5S', 'AC', '7C', '8H', 'AH', '0S', 'JC']])).to eq(4)
+      expect(phasea_phase_type([['2S', '3C', '4C', '5S'], ['7C', '7S', '7D', '7D']])).to eq(5)
+      expect(phasea_phase_type([['2S', '3C', '4C', '5S'], ['7C', '7S', '7D', '7D']])).to eq(5)
     end
 
     it "returns nil if invalid phase 5" do
-      expect(phasea_phase_type([['AH', '5S', 'AC', '7C', '8H', 'AH', '0S', 'QC']])).to eq(nil)
+      expect(phasea_phase_type([['2S', '2C', '4C', '5S'], ['7C', '7S', '7D', '7D']])).to eq(nil)
     end
 
 
