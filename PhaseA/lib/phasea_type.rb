@@ -135,7 +135,14 @@ def phasea_phase_type(group)
   # Phase 2 check e.g.[['2C', '7C', '7C', '8C', 'JC', 'QC', 'KC']]
   #TODO implement for phase 2 in like manner
 
-  
+  # Phase 3 check e.g.[['4H', '4S', 'AC', '4C']]
+  #TODO implement for phase 3 in like manner
+
+  # Phase 4 check e.g.[['4H', '5S', 'AC', '7C', '8H', 'AH', '0S', 'JC']]
+  #TODO implement for phase 4 in like manner
+
+  # Phase 5 check e.g.[['4H', '5D', 'AC', '7H'], ['2S', '3C', '4C', '5S']]
+  #TODO implement for phase 5 in like manner
 
   return phase_type
 end
