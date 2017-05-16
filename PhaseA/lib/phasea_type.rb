@@ -64,6 +64,7 @@ end
 # which define the suit.
 # Note also that the sequence of the cards is not significant for this group type.
 def phasea_phase_two(group)
+  #TODO implement for phase 2 in like manner
 end
 
 
@@ -76,6 +77,7 @@ end
 # which define the value. Note also that
 # the sequence of the cards is not significant for this group type.
 def phasea_phase_three(group)
+  #TODO implement for phase 3 in like manner
 end
 
 
@@ -91,6 +93,30 @@ end
 # and that ['4H', '5S', 'AC', '8H', '7C', 'AH', '0S', 'JC'],
 # e.g., is not a valid run of eight, as it is not in sequence.
 def phasea_phase_four(group)
+  #TODO implement for phase 4 in like manner
+end
+
+
+# Phase 5_1
+# A run of four cards of the same colour, e.g. ['4H', '5D', 'AC', '7H']
+# represents a run of four Red cards.
+# Note that the set may include Wilds (as we see in our example,
+# with the Ace of Clubs standing in for a Red Six),
+# but must include at least two "natural" cards (i.e. non-Wild cards),
+# which define the colour. Note also that the
+# sequence of the cards is significant for this group type,
+# and that ['4H', '5D', '7H', 'AC'] is not a valid run of
+# four cards of the same colour, as it is not in sequence.
+def phasea_phase_five_1(group)
+  #TODO implement for phase 5_1 in like manner
+end
+
+# Phase 5_2
+# a “run” of N cards of the same colour: a run of N cards where all cards are of the same colour,
+# as defined by the suit (Spades and Clubs are black,and Hearts and Diamonds are red; e.g.['2S', '3C', '4C', '5S']
+# is a run of 4 black cards)
+def phasea_phase_five_2(group)
+  #TODO implement for phase 5_2 in like manner
 end
 
 
@@ -108,6 +134,8 @@ def phasea_phase_type(group)
 
   # Phase 2 check e.g.[['2C', '7C', '7C', '8C', 'JC', 'QC', 'KC']]
   #TODO implement for phase 2 in like manner
+
+  
 
   return phase_type
 end
