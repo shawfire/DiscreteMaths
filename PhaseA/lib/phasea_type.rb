@@ -67,6 +67,33 @@ def phasea_phase_two(group)
 end
 
 
+# Phase 3
+# A set of four cards of the same value,
+# e.g. ['4H', '4S', 'AC', '4C'] represents a set of four Fours.
+# Note that the set may include Wilds (as we see in our example,
+# with the Ace of Clubs), but must
+# include at least two "natural" cards (i.e. non-Wild cards),
+# which define the value. Note also that
+# the sequence of the cards is not significant for this group type.
+def phasea_phase_three(group)
+end
+
+
+# Phase 4
+# A run of eight cards, e.g. ['4H', '5S', 'AC', '7C', '8H', 'AH', '0S', 'JC']
+# represents a run of eight cards.
+# Note that the set may include Wilds (as we see in our example,
+# with the Ace of Clubs standing in for a Six
+# and the Ace of Hearts standing in for a Nine),
+# but must include at least two "natural" cards
+# (i.e. non-Wild cards). Note also that the sequence of the cards is
+# significant for this group type,
+# and that ['4H', '5S', 'AC', '8H', '7C', 'AH', '0S', 'JC'],
+# e.g., is not a valid run of eight, as it is not in sequence.
+def phasea_phase_four(group)
+end
+
+
 def phasea_phase_type(group)
 
   phase_type = nil
