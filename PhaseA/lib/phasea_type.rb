@@ -94,6 +94,7 @@ end
 # e.g., is not a valid run of eight, as it is not in sequence.
 def phasea_phase_four(group)
   #TODO implement for phase 4 in like manner
+  seq_count
 end
 
 
@@ -135,7 +136,7 @@ def phasea_phase_type(group)
   # Phase 2 check e.g.[['2C', '7C', '7C', '8C', 'JC', 'QC', 'KC']]
   #TODO implement for phase 2 in like manner
 
-  # Phase 3 check e.g.[['4H', '4S', 'AC', '4C']]
+  # Phase 3 check e.g. [['2S', '2S', '2H', '2D'], ['7H', '7S', '7D', '7D']]
   #TODO implement for phase 3 in like manner
 
   # Phase 4 check e.g.[['4H', '5S', 'AC', '7C', '8H', 'AH', '0S', 'JC']]

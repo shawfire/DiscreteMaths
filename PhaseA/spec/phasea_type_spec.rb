@@ -64,7 +64,6 @@ describe 'PhaseAType' do
       expect(phasea_phase_type([['2S', '3C', '4C', '5S'], ['7C', 'JS', '7D', '7D']])).to eq(nil)
     end
 
-
   end
 
 end
