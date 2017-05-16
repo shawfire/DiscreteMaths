@@ -24,7 +24,9 @@ describe 'PhaseAType' do
     end
 
     it "returns the phase type 2" do
-      expect(phasea_phase_type([['2C', '2C', '4C', 'KC', '9C', 'AH', 'JC']])).to eq(1)
+      expect(phasea_phase_type([['2C', '2C', '4C', 'KC', '9C', 'AH', 'JC']])).to eq(2)
+      expect(phasea_phase_type([['2H', '2H', '4H', 'KH', '9H', 'AD', 'JH']])).to eq(2)
+
     end
 
     it "returns nil if invalid phase 2" do
